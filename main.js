@@ -15,19 +15,18 @@ const addMovie = document.querySelector('.the-post-button')
 
 function createMovie() {
     let movie = document.querySelector('.the-movie').value
-    renderMovie(movie)
+    //renderMovie(movie)
     console.log('movie?', movie)
 }
 
 
 
-    function renderMovie(movie) {
-    let movieEl = document.createElement('li')
-    movieEl.classname = "list-item";
-    movieEl.innerHTML = `${movie}`
-    movieList.appendChild(movieEl)
+//     function renderMovie(movie) {
+//     let movieEl = document.createElement('li')
+//     movieEl.classname = "list-item";
+//     movieEl.innerHTML = `${movie}`
+//     movieList.appendChild(movieEl)
     
-}
+// }
 
- function listMovies()   
-    
+ //function listMovies() {};
