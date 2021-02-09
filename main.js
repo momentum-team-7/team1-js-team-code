@@ -3,20 +3,22 @@ let movieList = document.querySelector('.the-movie-list')
 let movie = document.querySelector('.the-movie').value
 
 
-form.addEventListener('click', e => {
+form.addEventListener('submit', e => {
     e.preventDefault();
 })
 
 
 const addMovie = document.querySelector('.the-post-button')
-    addMovie.addEventListener('click', createMovie())
+    addMovie.addEventListener('click', createMovie)
      
 
 
 function createMovie() {
-    let movie = document.querySelector('.the-movie').value
+    console.log('create movie called')
+    let movie = document.querySelector('input').value
     //renderMovie(movie)
     console.log('movie?', movie)
+    
 }
 
 
